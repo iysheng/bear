@@ -1,0 +1,1842 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-exit.o)
+                              d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o (exit)
+d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-impure.o)
+                              d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-exit.o) (_global_impure_ptr)
+d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-init.o)
+                              d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o (__libc_init_array)
+d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-memset.o)
+                              d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o (memset)
+d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-__call_atexit.o)
+                              d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-exit.o) (__call_exitprocs)
+d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-atexit.o)
+                              d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-__call_atexit.o) (atexit)
+d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-fini.o)
+                              d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-__call_atexit.o) (__libc_fini_array)
+d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+                              d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-__call_atexit.o) (__retarget_lock_acquire_recursive)
+d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-__atexit.o)
+                              d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-atexit.o) (__register_exitproc)
+
+Allocating common symbols
+Common symbol       size              file
+
+__lock___atexit_recursive_mutex
+                    0x1               d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+__lock___arc4random_mutex
+                    0x1               d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+uwTick              0x4               ./hallib/stm32f7xx_hal.o
+__lock___env_recursive_mutex
+                    0x1               d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+__lock___sinit_recursive_mutex
+                    0x1               d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+__lock___malloc_recursive_mutex
+                    0x1               d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+__lock___at_quick_exit_mutex
+                    0x1               d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+__lock___dd_hash_mutex
+                    0x1               d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+__lock___tz_mutex   0x1               d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+__lock___sfp_recursive_mutex
+                    0x1               d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crti.o
+ .data          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crti.o
+ .bss           0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crti.o
+ .data          0x00000000        0x4 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+ .text          0x00000000       0x74 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o
+ .data          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o
+ .bss           0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o
+ .ARM.extab     0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o
+ .ARM.exidx     0x00000000        0x8 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o
+ .ARM.attributes
+                0x00000000       0x1c d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .group         0x00000000        0x8 ./usr/main.o
+ .text          0x00000000        0x0 ./usr/main.o
+ .data          0x00000000        0x0 ./usr/main.o
+ .bss           0x00000000        0x0 ./usr/main.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal.o
+ .text          0x00000000        0x0 ./hallib/stm32f7xx_hal.o
+ .data          0x00000000        0x0 ./hallib/stm32f7xx_hal.o
+ .bss           0x00000000        0x0 ./hallib/stm32f7xx_hal.o
+ .text.HAL_DeInit
+                0x00000000       0x58 ./hallib/stm32f7xx_hal.o
+ .text.HAL_MspDeInit
+                0x00000000        0xc ./hallib/stm32f7xx_hal.o
+ .text.HAL_IncTick
+                0x00000000       0x1c ./hallib/stm32f7xx_hal.o
+ .text.HAL_GetTick
+                0x00000000       0x14 ./hallib/stm32f7xx_hal.o
+ .text.HAL_Delay
+                0x00000000       0x2c ./hallib/stm32f7xx_hal.o
+ .text.HAL_SuspendTick
+                0x00000000       0x1c ./hallib/stm32f7xx_hal.o
+ .text.HAL_ResumeTick
+                0x00000000       0x1c ./hallib/stm32f7xx_hal.o
+ .text.HAL_GetHalVersion
+                0x00000000       0x10 ./hallib/stm32f7xx_hal.o
+ .text.HAL_GetREVID
+                0x00000000       0x18 ./hallib/stm32f7xx_hal.o
+ .text.HAL_GetDEVID
+                0x00000000       0x18 ./hallib/stm32f7xx_hal.o
+ .text.HAL_DBGMCU_EnableDBGSleepMode
+                0x00000000       0x1c ./hallib/stm32f7xx_hal.o
+ .text.HAL_DBGMCU_DisableDBGSleepMode
+                0x00000000       0x1c ./hallib/stm32f7xx_hal.o
+ .text.HAL_DBGMCU_EnableDBGStopMode
+                0x00000000       0x1c ./hallib/stm32f7xx_hal.o
+ .text.HAL_DBGMCU_DisableDBGStopMode
+                0x00000000       0x1c ./hallib/stm32f7xx_hal.o
+ .text.HAL_DBGMCU_EnableDBGStandbyMode
+                0x00000000       0x1c ./hallib/stm32f7xx_hal.o
+ .text.HAL_DBGMCU_DisableDBGStandbyMode
+                0x00000000       0x1c ./hallib/stm32f7xx_hal.o
+ .text.HAL_EnableCompensationCell
+                0x00000000       0x1c ./hallib/stm32f7xx_hal.o
+ .text.HAL_DisableCompensationCell
+                0x00000000       0x1c ./hallib/stm32f7xx_hal.o
+ .text.HAL_EnableFMCMemorySwapping
+                0x00000000       0x1c ./hallib/stm32f7xx_hal.o
+ .text.HAL_DisableFMCMemorySwapping
+                0x00000000       0x1c ./hallib/stm32f7xx_hal.o
+ .text.HAL_EnableMemorySwappingBank
+                0x00000000       0x1c ./hallib/stm32f7xx_hal.o
+ .text.HAL_DisableMemorySwappingBank
+                0x00000000       0x1c ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x8a4 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x27b ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x2e ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x3b ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x22 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x87 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x51 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0xef ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x6a ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x1df ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x35 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x50 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000     0x1114 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000    0x19f3a ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x43 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000     0x35c8 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x58 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x35 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x9c ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x16 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x97 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x30d ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0xfd ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x10 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x58 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x1f ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x43 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x20 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x187 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x10 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x1c ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x52 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x40 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x10 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x40 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0xd7 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x16 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x18b ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x57 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000     0x1add ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x6a2 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x11e ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x277 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x27 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x24f ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x71 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x58 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x23a ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x408 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x161 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x100 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x36e ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x2e2 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0xab ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x4c ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x2e ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x22b ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0xe6 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0xa1 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x3c ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x22c ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0xcd6 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x156 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x3de ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x12 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x516 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x88 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0xe3 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x10 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x202 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x61 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x90 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x1b5 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x87 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x28d ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x255 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x133 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x10c ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x35 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x2e2 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x7b ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x313 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x4dc ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0xd6 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x447 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x757 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x198 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x1ed ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x2e2 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x685 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x295 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x13f ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x4e8 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x47 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x1df ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x29 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x58 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x1f4 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x30 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x58 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x2f7 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x5e ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0xa5 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x89 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x1f4 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x120 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000       0x75 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x2a3 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x137 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x2c5 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x00000000      0x158 ./hallib/stm32f7xx_hal.o
+ COMMON         0x00000000        0x4 ./hallib/stm32f7xx_hal.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_cortex.o
+ .text          0x00000000        0x0 ./hallib/stm32f7xx_hal_cortex.o
+ .data          0x00000000        0x0 ./hallib/stm32f7xx_hal_cortex.o
+ .bss           0x00000000        0x0 ./hallib/stm32f7xx_hal_cortex.o
+ .text.NVIC_EnableIRQ
+                0x00000000       0x30 ./hallib/stm32f7xx_hal_cortex.o
+ .text.NVIC_DisableIRQ
+                0x00000000       0x34 ./hallib/stm32f7xx_hal_cortex.o
+ .text.NVIC_GetPendingIRQ
+                0x00000000       0x34 ./hallib/stm32f7xx_hal_cortex.o
+ .text.NVIC_SetPendingIRQ
+                0x00000000       0x34 ./hallib/stm32f7xx_hal_cortex.o
+ .text.NVIC_ClearPendingIRQ
+                0x00000000       0x34 ./hallib/stm32f7xx_hal_cortex.o
+ .text.NVIC_GetActive
+                0x00000000       0x34 ./hallib/stm32f7xx_hal_cortex.o
+ .text.NVIC_GetPriority
+                0x00000000       0x4c ./hallib/stm32f7xx_hal_cortex.o
+ .text.NVIC_DecodePriority
+                0x00000000       0x68 ./hallib/stm32f7xx_hal_cortex.o
+ .text.NVIC_SystemReset
+                0x00000000       0x28 ./hallib/stm32f7xx_hal_cortex.o
+ .text.HAL_NVIC_EnableIRQ
+                0x00000000       0x1c ./hallib/stm32f7xx_hal_cortex.o
+ .text.HAL_NVIC_DisableIRQ
+                0x00000000       0x1c ./hallib/stm32f7xx_hal_cortex.o
+ .text.HAL_NVIC_SystemReset
+                0x00000000        0xc ./hallib/stm32f7xx_hal_cortex.o
+ .text.HAL_MPU_Disable
+                0x00000000       0x2c ./hallib/stm32f7xx_hal_cortex.o
+ .text.HAL_MPU_Enable
+                0x00000000       0x38 ./hallib/stm32f7xx_hal_cortex.o
+ .text.HAL_MPU_ConfigRegion
+                0x00000000       0x84 ./hallib/stm32f7xx_hal_cortex.o
+ .text.HAL_NVIC_GetPriorityGrouping
+                0x00000000        0xe ./hallib/stm32f7xx_hal_cortex.o
+ .text.HAL_NVIC_GetPriority
+                0x00000000       0x2c ./hallib/stm32f7xx_hal_cortex.o
+ .text.HAL_NVIC_SetPendingIRQ
+                0x00000000       0x1c ./hallib/stm32f7xx_hal_cortex.o
+ .text.HAL_NVIC_GetPendingIRQ
+                0x00000000       0x1e ./hallib/stm32f7xx_hal_cortex.o
+ .text.HAL_NVIC_ClearPendingIRQ
+                0x00000000       0x1c ./hallib/stm32f7xx_hal_cortex.o
+ .text.HAL_NVIC_GetActive
+                0x00000000       0x1e ./hallib/stm32f7xx_hal_cortex.o
+ .text.HAL_SYSTICK_CLKSourceConfig
+                0x00000000       0x38 ./hallib/stm32f7xx_hal_cortex.o
+ .text.HAL_SYSTICK_IRQHandler
+                0x00000000        0xc ./hallib/stm32f7xx_hal_cortex.o
+ .text.HAL_SYSTICK_Callback
+                0x00000000        0xc ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x8a4 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x27b ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x2e ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x3b ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x22 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x87 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x51 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0xef ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x6a ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x1df ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x35 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x50 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000     0x1114 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000    0x19f3a ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x43 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000     0x35c8 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x58 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x35 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x9c ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x16 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x97 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x30d ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0xfd ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x10 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x58 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x1f ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x43 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x20 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x187 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x10 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x1c ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x52 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x40 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x10 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x40 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0xd7 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x16 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x18b ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x57 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000     0x1add ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x6a2 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x11e ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x277 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x27 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x24f ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x71 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x58 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x23a ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x408 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x161 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x100 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x36e ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x2e2 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0xab ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x4c ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x2e ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x22b ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0xe6 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0xa1 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x3c ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x22c ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0xcd6 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x156 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x3de ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x12 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x516 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x88 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0xe3 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x10 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x202 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x61 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x90 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x1b5 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x87 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x28d ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x255 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x133 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x10c ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x35 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x2e2 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x7b ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x313 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x4dc ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0xd6 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x447 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x757 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x198 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x1ed ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x2e2 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x685 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x295 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x13f ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x4e8 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x47 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x1df ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x29 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x58 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x1f4 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x30 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x58 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x2f7 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x5e ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0xa5 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x89 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x1f4 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x120 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000       0x75 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x2a3 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x137 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x2c5 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x00000000      0x158 ./hallib/stm32f7xx_hal_cortex.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .group         0x00000000        0x8 ./hallib/stm32f7xx_hal_gpio.o
+ .text          0x00000000        0x0 ./hallib/stm32f7xx_hal_gpio.o
+ .data          0x00000000        0x0 ./hallib/stm32f7xx_hal_gpio.o
+ .bss           0x00000000        0x0 ./hallib/stm32f7xx_hal_gpio.o
+ .text.HAL_GPIO_DeInit
+                0x00000000      0x214 ./hallib/stm32f7xx_hal_gpio.o
+ .text.HAL_GPIO_ReadPin
+                0x00000000       0x2e ./hallib/stm32f7xx_hal_gpio.o
+ .text.HAL_GPIO_TogglePin
+                0x00000000       0x22 ./hallib/stm32f7xx_hal_gpio.o
+ .text.HAL_GPIO_LockPin
+                0x00000000       0x4e ./hallib/stm32f7xx_hal_gpio.o
+ .text.HAL_GPIO_EXTI_IRQHandler
+                0x00000000       0x30 ./hallib/stm32f7xx_hal_gpio.o
+ .text.HAL_GPIO_EXTI_Callback
+                0x00000000       0x14 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x8a4 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x27b ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x2e ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x3b ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x22 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x87 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x51 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0xef ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x6a ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x1df ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x35 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x50 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000     0x1114 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000    0x19f3a ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x43 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000     0x35c8 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x58 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x35 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x9c ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x16 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x97 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x30d ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0xfd ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x10 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x58 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x1f ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x43 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x20 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x187 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x10 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x1c ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x52 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x40 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x10 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x40 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0xd7 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x16 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x18b ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x57 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000     0x1add ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x6a2 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x11e ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x277 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x27 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x24f ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x71 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x58 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x23a ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x408 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x161 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x100 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x36e ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x2e2 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0xab ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x4c ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x2e ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x22b ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0xe6 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0xa1 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x3c ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x22c ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0xcd6 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x156 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x3de ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x12 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x516 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x88 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0xe3 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x10 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x202 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x61 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x90 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x1b5 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x87 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x28d ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x255 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x133 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x10c ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x35 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x2e2 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x7b ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x313 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x4dc ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0xd6 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x447 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x757 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x198 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x1ed ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x2e2 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x685 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x295 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x13f ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x4e8 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x47 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x1df ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x29 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x58 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x1f4 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x30 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x58 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x2f7 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x5e ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0xa5 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x89 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x1f4 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x120 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000       0x75 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x2a3 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x137 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x2c5 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x00000000      0x158 ./hallib/stm32f7xx_hal_gpio.o
+ .text          0x00000000       0x14 ./cmsis/startup_stm32f767xx.o
+ .data          0x00000000        0x0 ./cmsis/startup_stm32f767xx.o
+ .bss           0x00000000        0x0 ./cmsis/startup_stm32f767xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .group         0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .text          0x00000000        0x0 ./cmsis/system_stm32f7xx.o
+ .data          0x00000000        0x0 ./cmsis/system_stm32f7xx.o
+ .bss           0x00000000        0x0 ./cmsis/system_stm32f7xx.o
+ .rodata.AHBPrescTable
+                0x00000000       0x10 ./cmsis/system_stm32f7xx.o
+ .rodata.APBPrescTable
+                0x00000000        0x8 ./cmsis/system_stm32f7xx.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0xf4 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x8a4 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x2e ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x3b ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x22 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x87 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x51 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0xef ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x6a ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x1df ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x35 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x50 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000     0x1114 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000    0x19f3a ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x43 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x27b ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000     0x35c8 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x58 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x35 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x9c ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x16 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x97 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x30d ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0xfd ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x10 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x58 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x1f ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x43 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x20 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x187 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x10 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x1c ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x52 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x40 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x10 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x40 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0xd7 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x16 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x18b ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x57 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000     0x1add ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x6a2 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x11e ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x277 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x27 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x24f ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x71 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x58 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x23a ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x408 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x161 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x100 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x36e ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x2e2 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0xab ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x4c ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x2e ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x22b ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0xe6 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0xa1 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x3c ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x22c ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0xcd6 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x156 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x3de ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x12 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x516 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x88 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0xe3 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x10 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x202 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x61 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x90 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x1b5 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x87 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x28d ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x255 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x133 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x10c ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x35 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x2e2 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x7b ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x313 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x4dc ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0xd6 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x447 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x757 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x198 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x1ed ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x2e2 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x685 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x295 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x13f ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x4e8 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x47 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x1df ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x29 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x58 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x1f4 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x30 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x58 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x2f7 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x5e ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0xa5 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x89 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x1f4 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x120 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000       0x75 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x2a3 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x137 ./cmsis/system_stm32f7xx.o
+ .debug_macro   0x00000000      0x2c5 ./cmsis/system_stm32f7xx.o
+ .text          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-exit.o)
+ .data          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x20 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-exit.o)
+ .debug_frame   0x00000000       0x28 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-exit.o)
+ .text          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-impure.o)
+ .data          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-impure.o)
+ .text          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-init.o)
+ .data          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-init.o)
+ .bss           0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-init.o)
+ .text          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-memset.o)
+ .data          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-memset.o)
+ .text.memset   0x00000000       0x9c d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-memset.o)
+ .debug_frame   0x00000000       0x34 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-memset.o)
+ .text          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-__call_atexit.o)
+ .data          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-__call_atexit.o)
+ .bss           0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x00000000       0xe8 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-__call_atexit.o)
+ .text          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-atexit.o)
+ .data          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-atexit.o)
+ .bss           0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-atexit.o)
+ .text          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-fini.o)
+ .data          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-fini.o)
+ .bss           0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-fini.o)
+ .text          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+ .data          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+ .bss           0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+ .text.__retarget_lock_init
+                0x00000000        0x4 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x00000000        0x4 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+ .text.__retarget_lock_close
+                0x00000000        0x4 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x00000000        0x4 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x00000000        0x4 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x00000000        0x4 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x00000000        0x4 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+ .text.__retarget_lock_release
+                0x00000000        0x4 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+ .text          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-__atexit.o)
+ .data          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-__atexit.o)
+ .bss           0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-__atexit.o)
+ .text          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtend.o
+ .data          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtend.o
+ .bss           0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtend.o
+ .eh_frame      0x00000000        0x4 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtend.o
+ .jcr           0x00000000        0x4 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtend.o
+ .ARM.attributes
+                0x00000000       0x2e d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtend.o
+ .text          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
+ .data          0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
+ .bss           0x00000000        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00200000         xr
+RAM              0x20000000         0x00050000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crti.o
+LOAD d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+LOAD d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/crt0.o
+LOAD ./usr/main.o
+LOAD ./hallib/stm32f7xx_hal.o
+LOAD ./hallib/stm32f7xx_hal_cortex.o
+LOAD ./hallib/stm32f7xx_hal_gpio.o
+LOAD ./cmsis/startup_stm32f767xx.o
+LOAD ./cmsis/system_stm32f7xx.o
+START GROUP
+LOAD d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m\libgcc.a
+LOAD d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a
+LOAD d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a
+END GROUP
+LOAD d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtend.o
+LOAD d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
+                0x20050000                _estack = 0x20050000
+                0x00000200                _Min_Heap_Size = 0x200
+                0x00000400                _Min_Stack_Size = 0x400
+
+.isr_vector     0x08000000      0x1f8
+                0x08000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x1f8 ./cmsis/startup_stm32f767xx.o
+                0x08000000                g_pfnVectors
+                0x080001f8                . = ALIGN (0x4)
+
+.text           0x080001f8      0x8d8
+                0x080001f8                . = ALIGN (0x4)
+ *(.text)
+ .text          0x080001f8       0x6c d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+ *(.text*)
+ .text.LED_init
+                0x08000264       0x48 ./usr/main.o
+                0x08000264                LED_init
+ .text.LED_on   0x080002ac       0x20 ./usr/main.o
+                0x080002ac                LED_on
+ .text.main     0x080002cc       0x12 ./usr/main.o
+                0x080002cc                main
+ *fill*         0x080002de        0x2 
+ .text.HAL_Init
+                0x080002e0       0x2c ./hallib/stm32f7xx_hal.o
+                0x080002e0                HAL_Init
+ .text.HAL_MspInit
+                0x0800030c        0xc ./hallib/stm32f7xx_hal.o
+                0x0800030c                HAL_MspInit
+ .text.HAL_InitTick
+                0x08000318       0x38 ./hallib/stm32f7xx_hal.o
+                0x08000318                HAL_InitTick
+ .text.NVIC_SetPriorityGrouping
+                0x08000350       0x48 ./hallib/stm32f7xx_hal_cortex.o
+ .text.NVIC_GetPriorityGrouping
+                0x08000398       0x1c ./hallib/stm32f7xx_hal_cortex.o
+ .text.NVIC_SetPriority
+                0x080003b4       0x54 ./hallib/stm32f7xx_hal_cortex.o
+ .text.NVIC_EncodePriority
+                0x08000408       0x60 ./hallib/stm32f7xx_hal_cortex.o
+ .text.SysTick_Config
+                0x08000468       0x44 ./hallib/stm32f7xx_hal_cortex.o
+ .text.HAL_NVIC_SetPriorityGrouping
+                0x080004ac       0x16 ./hallib/stm32f7xx_hal_cortex.o
+                0x080004ac                HAL_NVIC_SetPriorityGrouping
+ .text.HAL_NVIC_SetPriority
+                0x080004c2       0x38 ./hallib/stm32f7xx_hal_cortex.o
+                0x080004c2                HAL_NVIC_SetPriority
+ .text.HAL_SYSTICK_Config
+                0x080004fa       0x18 ./hallib/stm32f7xx_hal_cortex.o
+                0x080004fa                HAL_SYSTICK_Config
+ *fill*         0x08000512        0x2 
+ .text.HAL_GPIO_Init
+                0x08000514      0x354 ./hallib/stm32f7xx_hal_gpio.o
+                0x08000514                HAL_GPIO_Init
+ .text.HAL_GPIO_WritePin
+                0x08000868       0x30 ./hallib/stm32f7xx_hal_gpio.o
+                0x08000868                HAL_GPIO_WritePin
+ .text.Reset_Handler
+                0x08000898       0x50 ./cmsis/startup_stm32f767xx.o
+                0x08000898                Reset_Handler
+ .text.Default_Handler
+                0x080008e8        0x2 ./cmsis/startup_stm32f767xx.o
+                0x080008e8                RTC_Alarm_IRQHandler
+                0x080008e8                EXTI2_IRQHandler
+                0x080008e8                TIM8_CC_IRQHandler
+                0x080008e8                DebugMon_Handler
+                0x080008e8                UART8_IRQHandler
+                0x080008e8                SPI4_IRQHandler
+                0x080008e8                TIM1_CC_IRQHandler
+                0x080008e8                DMA2_Stream5_IRQHandler
+                0x080008e8                HardFault_Handler
+                0x080008e8                JPEG_IRQHandler
+                0x080008e8                DMA1_Stream5_IRQHandler
+                0x080008e8                SysTick_Handler
+                0x080008e8                CAN3_RX1_IRQHandler
+                0x080008e8                PVD_IRQHandler
+                0x080008e8                TAMP_STAMP_IRQHandler
+                0x080008e8                PendSV_Handler
+                0x080008e8                NMI_Handler
+                0x080008e8                CAN2_RX1_IRQHandler
+                0x080008e8                EXTI3_IRQHandler
+                0x080008e8                TIM8_TRG_COM_TIM14_IRQHandler
+                0x080008e8                DFSDM1_FLT1_IRQHandler
+                0x080008e8                TIM1_UP_TIM10_IRQHandler
+                0x080008e8                TIM8_UP_TIM13_IRQHandler
+                0x080008e8                I2C3_ER_IRQHandler
+                0x080008e8                DFSDM1_FLT2_IRQHandler
+                0x080008e8                EXTI0_IRQHandler
+                0x080008e8                I2C2_EV_IRQHandler
+                0x080008e8                DMA1_Stream2_IRQHandler
+                0x080008e8                CAN1_RX0_IRQHandler
+                0x080008e8                FPU_IRQHandler
+                0x080008e8                OTG_HS_WKUP_IRQHandler
+                0x080008e8                CAN3_SCE_IRQHandler
+                0x080008e8                UsageFault_Handler
+                0x080008e8                LTDC_ER_IRQHandler
+                0x080008e8                CAN2_SCE_IRQHandler
+                0x080008e8                DMA2_Stream2_IRQHandler
+                0x080008e8                SPI1_IRQHandler
+                0x080008e8                TIM6_DAC_IRQHandler
+                0x080008e8                TIM1_BRK_TIM9_IRQHandler
+                0x080008e8                DCMI_IRQHandler
+                0x080008e8                CAN2_RX0_IRQHandler
+                0x080008e8                DMA2_Stream3_IRQHandler
+                0x080008e8                SAI2_IRQHandler
+                0x080008e8                DFSDM1_FLT3_IRQHandler
+                0x080008e8                USART6_IRQHandler
+                0x080008e8                CAN3_RX0_IRQHandler
+                0x080008e8                USART3_IRQHandler
+                0x080008e8                CAN1_RX1_IRQHandler
+                0x080008e8                UART5_IRQHandler
+                0x080008e8                DMA2_Stream0_IRQHandler
+                0x080008e8                TIM4_IRQHandler
+                0x080008e8                QUADSPI_IRQHandler
+                0x080008e8                I2C1_EV_IRQHandler
+                0x080008e8                DMA1_Stream6_IRQHandler
+                0x080008e8                DMA1_Stream1_IRQHandler
+                0x080008e8                UART4_IRQHandler
+                0x080008e8                TIM3_IRQHandler
+                0x080008e8                RCC_IRQHandler
+                0x080008e8                TIM8_BRK_TIM12_IRQHandler
+                0x080008e8                Default_Handler
+                0x080008e8                CEC_IRQHandler
+                0x080008e8                EXTI15_10_IRQHandler
+                0x080008e8                ADC_IRQHandler
+                0x080008e8                DMA1_Stream7_IRQHandler
+                0x080008e8                SPI5_IRQHandler
+                0x080008e8                TIM7_IRQHandler
+                0x080008e8                SDMMC1_IRQHandler
+                0x080008e8                CAN2_TX_IRQHandler
+                0x080008e8                TIM5_IRQHandler
+                0x080008e8                DMA2_Stream7_IRQHandler
+                0x080008e8                I2C3_EV_IRQHandler
+                0x080008e8                EXTI9_5_IRQHandler
+                0x080008e8                RTC_WKUP_IRQHandler
+                0x080008e8                LTDC_IRQHandler
+                0x080008e8                ETH_WKUP_IRQHandler
+                0x080008e8                SPDIF_RX_IRQHandler
+                0x080008e8                SPI2_IRQHandler
+                0x080008e8                OTG_HS_EP1_IN_IRQHandler
+                0x080008e8                MemManage_Handler
+                0x080008e8                DMA1_Stream0_IRQHandler
+                0x080008e8                CAN1_TX_IRQHandler
+                0x080008e8                SVC_Handler
+                0x080008e8                EXTI4_IRQHandler
+                0x080008e8                RNG_IRQHandler
+                0x080008e8                ETH_IRQHandler
+                0x080008e8                OTG_HS_EP1_OUT_IRQHandler
+                0x080008e8                WWDG_IRQHandler
+                0x080008e8                SPI6_IRQHandler
+                0x080008e8                MDIOS_IRQHandler
+                0x080008e8                I2C4_EV_IRQHandler
+                0x080008e8                CAN3_TX_IRQHandler
+                0x080008e8                TIM2_IRQHandler
+                0x080008e8                OTG_FS_WKUP_IRQHandler
+                0x080008e8                TIM1_TRG_COM_TIM11_IRQHandler
+                0x080008e8                OTG_HS_IRQHandler
+                0x080008e8                DMA2D_IRQHandler
+                0x080008e8                EXTI1_IRQHandler
+                0x080008e8                SDMMC2_IRQHandler
+                0x080008e8                UART7_IRQHandler
+                0x080008e8                USART2_IRQHandler
+                0x080008e8                DFSDM1_FLT0_IRQHandler
+                0x080008e8                I2C2_ER_IRQHandler
+                0x080008e8                DMA2_Stream1_IRQHandler
+                0x080008e8                CAN1_SCE_IRQHandler
+                0x080008e8                FLASH_IRQHandler
+                0x080008e8                DMA2_Stream4_IRQHandler
+                0x080008e8                BusFault_Handler
+                0x080008e8                USART1_IRQHandler
+                0x080008e8                OTG_FS_IRQHandler
+                0x080008e8                SPI3_IRQHandler
+                0x080008e8                DMA1_Stream4_IRQHandler
+                0x080008e8                I2C1_ER_IRQHandler
+                0x080008e8                FMC_IRQHandler
+                0x080008e8                LPTIM1_IRQHandler
+                0x080008e8                I2C4_ER_IRQHandler
+                0x080008e8                DMA2_Stream6_IRQHandler
+                0x080008e8                SAI1_IRQHandler
+                0x080008e8                DMA1_Stream3_IRQHandler
+ *fill*         0x080008ea        0x2 
+ .text.SystemInit
+                0x080008ec       0x5c ./cmsis/system_stm32f7xx.o
+                0x080008ec                SystemInit
+ .text.__libc_init_array
+                0x08000948       0x50 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-init.o)
+                0x08000948                __libc_init_array
+ .text.startup.register_fini
+                0x08000998       0x14 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-__call_atexit.o)
+ .text.atexit   0x080009ac        0xc d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-atexit.o)
+                0x080009ac                atexit
+ .text.__libc_fini_array
+                0x080009b8       0x34 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-fini.o)
+                0x080009b8                __libc_fini_array
+ .text.__retarget_lock_acquire_recursive
+                0x080009ec        0x4 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+                0x080009ec                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_release_recursive
+                0x080009f0        0x4 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+                0x080009f0                __retarget_lock_release_recursive
+ .text.__register_exitproc
+                0x080009f4       0xc4 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-__atexit.o)
+                0x080009f4                __register_exitproc
+ *(.glue_7)
+ .glue_7        0x08000ab8        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x08000ab8        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x08000ab8        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+ *(.init)
+ .init          0x08000ab8        0x4 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crti.o
+                0x08000ab8                _init
+ .init          0x08000abc        0x8 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
+ *(.fini)
+ .fini          0x08000ac4        0x4 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crti.o
+                0x08000ac4                _fini
+ .fini          0x08000ac8        0x8 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
+                0x08000ad0                . = ALIGN (0x4)
+                0x08000ad0                _etext = .
+
+.vfp11_veneer   0x08000ad0        0x0
+ .vfp11_veneer  0x08000ad0        0x0 linker stubs
+
+.v4_bx          0x08000ad0        0x0
+ .v4_bx         0x08000ad0        0x0 linker stubs
+
+.iplt           0x08000ad0        0x0
+ .iplt          0x08000ad0        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+
+.rodata         0x08000ad0        0x4
+                0x08000ad0                . = ALIGN (0x4)
+ *(.rodata)
+ *(.rodata*)
+ .rodata._global_impure_ptr
+                0x08000ad0        0x4 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-impure.o)
+                0x08000ad0                _global_impure_ptr
+                0x08000ad4                . = ALIGN (0x4)
+
+.rel.dyn        0x08000ad4        0x0
+ .rel.iplt      0x08000ad4        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x08000ad4        0x0
+                0x08000ad4                __exidx_start = .
+ *(.ARM.exidx*)
+                0x08000ad4                __exidx_end = .
+
+.preinit_array  0x08000ad4        0x0
+                0x08000ad4                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x08000ad4                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x08000ad4        0x8
+                0x08000ad4                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ .init_array.00000
+                0x08000ad4        0x4 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-__call_atexit.o)
+ *(.init_array*)
+ .init_array    0x08000ad8        0x4 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+                0x08000adc                PROVIDE (__init_array_end, .)
+
+.fini_array     0x08000adc        0x4
+                0x08000adc                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x08000adc        0x4 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+                0x08000ae0                PROVIDE (__fini_array_end, .)
+                0x08000ae0                _sidata = LOADADDR (.data)
+
+.data           0x20000000      0x434 load address 0x08000ae0
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdata = .
+ *(.data)
+ *(.data*)
+ .data.SystemCoreClock
+                0x20000000        0x4 ./cmsis/system_stm32f7xx.o
+                0x20000000                SystemCoreClock
+ *fill*         0x20000004        0x4 
+ .data.impure_data
+                0x20000008      0x428 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-impure.o)
+ .data.__atexit_recursive_mutex
+                0x20000430        0x4 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-__call_atexit.o)
+                0x20000430                __atexit_recursive_mutex
+                0x20000434                . = ALIGN (0x4)
+                0x20000434                _edata = .
+
+.jcr            0x20000434        0x0 load address 0x08000f14
+ .jcr           0x20000434        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+
+.igot.plt       0x20000434        0x0 load address 0x08000f14
+ .igot.plt      0x20000434        0x0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+                0x20000434                . = ALIGN (0x4)
+
+.bss            0x20000434       0x40 load address 0x08000f14
+                0x20000434                _sbss = .
+                0x20000434                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x20000434       0x1c d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x20000450       0x21 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+                0x20000450                __lock___atexit_recursive_mutex
+                0x20000454                __lock___arc4random_mutex
+                0x20000458                __lock___env_recursive_mutex
+                0x2000045c                __lock___sinit_recursive_mutex
+                0x20000460                __lock___malloc_recursive_mutex
+                0x20000464                __lock___at_quick_exit_mutex
+                0x20000468                __lock___dd_hash_mutex
+                0x2000046c                __lock___tz_mutex
+                0x20000470                __lock___sfp_recursive_mutex
+                0x20000474                . = ALIGN (0x4)
+ *fill*         0x20000471        0x3 
+                0x20000474                _ebss = .
+                0x20000474                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x20000474      0x604 load address 0x08000f14
+                0x20000478                . = ALIGN (0x8)
+ *fill*         0x20000474        0x4 
+                [!provide]                PROVIDE (end, .)
+                [!provide]                PROVIDE (_end, .)
+                0x20000678                . = (. + _Min_Heap_Size)
+ *fill*         0x20000478      0x200 
+                0x20000a78                . = (. + _Min_Stack_Size)
+ *fill*         0x20000678      0x400 
+                0x20000a78                . = ALIGN (0x8)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x2a
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1e d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x2e d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtbegin.o
+ .ARM.attributes
+                0x0000004c       0x33 ./usr/main.o
+ .ARM.attributes
+                0x0000007f       0x33 ./hallib/stm32f7xx_hal.o
+ .ARM.attributes
+                0x000000b2       0x33 ./hallib/stm32f7xx_hal_cortex.o
+ .ARM.attributes
+                0x000000e5       0x33 ./hallib/stm32f7xx_hal_gpio.o
+ .ARM.attributes
+                0x00000118       0x21 ./cmsis/startup_stm32f767xx.o
+ .ARM.attributes
+                0x00000139       0x33 ./cmsis/system_stm32f7xx.o
+ .ARM.attributes
+                0x0000016c       0x2e d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000019a       0x2e d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-init.o)
+ .ARM.attributes
+                0x000001c8       0x2e d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x000001f6       0x2e d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x00000224       0x2e d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-fini.o)
+ .ARM.attributes
+                0x00000252       0x2e d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+ .ARM.attributes
+                0x00000280       0x2e d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x000002ae       0x1e d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/crtn.o
+OUTPUT(bear.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x55d0
+ .debug_info    0x00000000      0xc97 ./usr/main.o
+ .debug_info    0x00000c97     0x11af ./hallib/stm32f7xx_hal.o
+ .debug_info    0x00001e46     0x185a ./hallib/stm32f7xx_hal_cortex.o
+ .debug_info    0x000036a0      0xfbe ./hallib/stm32f7xx_hal_gpio.o
+ .debug_info    0x0000465e       0x5e ./cmsis/startup_stm32f767xx.o
+ .debug_info    0x000046bc      0xf14 ./cmsis/system_stm32f7xx.o
+
+.debug_abbrev   0x00000000      0xd0b
+ .debug_abbrev  0x00000000      0x222 ./usr/main.o
+ .debug_abbrev  0x00000222      0x2a1 ./hallib/stm32f7xx_hal.o
+ .debug_abbrev  0x000004c3      0x39d ./hallib/stm32f7xx_hal_cortex.o
+ .debug_abbrev  0x00000860      0x287 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_abbrev  0x00000ae7       0x12 ./cmsis/startup_stm32f767xx.o
+ .debug_abbrev  0x00000af9      0x212 ./cmsis/system_stm32f7xx.o
+
+.debug_aranges  0x00000000      0x2d0
+ .debug_aranges
+                0x00000000       0x30 ./usr/main.o
+ .debug_aranges
+                0x00000030       0xe0 ./hallib/stm32f7xx_hal.o
+ .debug_aranges
+                0x00000110      0x118 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_aranges
+                0x00000228       0x58 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_aranges
+                0x00000280       0x28 ./cmsis/startup_stm32f767xx.o
+ .debug_aranges
+                0x000002a8       0x28 ./cmsis/system_stm32f7xx.o
+
+.debug_ranges   0x00000000      0x278
+ .debug_ranges  0x00000000       0x20 ./usr/main.o
+ .debug_ranges  0x00000020       0xd0 ./hallib/stm32f7xx_hal.o
+ .debug_ranges  0x000000f0      0x108 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_ranges  0x000001f8       0x48 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_ranges  0x00000240       0x20 ./cmsis/startup_stm32f767xx.o
+ .debug_ranges  0x00000260       0x18 ./cmsis/system_stm32f7xx.o
+
+.debug_macro    0x00000000    0x2c2a3
+ .debug_macro   0x00000000      0x511 ./usr/main.o
+ .debug_macro   0x00000511      0x8a4 ./usr/main.o
+ .debug_macro   0x00000db5       0x2e ./usr/main.o
+ .debug_macro   0x00000de3       0x3b ./usr/main.o
+ .debug_macro   0x00000e1e       0x22 ./usr/main.o
+ .debug_macro   0x00000e40       0x87 ./usr/main.o
+ .debug_macro   0x00000ec7       0x51 ./usr/main.o
+ .debug_macro   0x00000f18       0xef ./usr/main.o
+ .debug_macro   0x00001007       0x6a ./usr/main.o
+ .debug_macro   0x00001071      0x1df ./usr/main.o
+ .debug_macro   0x00001250       0x35 ./usr/main.o
+ .debug_macro   0x00001285       0x50 ./usr/main.o
+ .debug_macro   0x000012d5     0x1114 ./usr/main.o
+ .debug_macro   0x000023e9    0x19f3a ./usr/main.o
+ .debug_macro   0x0001c323       0x43 ./usr/main.o
+ .debug_macro   0x0001c366      0x27b ./usr/main.o
+ .debug_macro   0x0001c5e1     0x35c8 ./usr/main.o
+ .debug_macro   0x0001fba9       0x58 ./usr/main.o
+ .debug_macro   0x0001fc01       0x35 ./usr/main.o
+ .debug_macro   0x0001fc36       0x9c ./usr/main.o
+ .debug_macro   0x0001fcd2       0x16 ./usr/main.o
+ .debug_macro   0x0001fce8       0x97 ./usr/main.o
+ .debug_macro   0x0001fd7f      0x30d ./usr/main.o
+ .debug_macro   0x0002008c       0xfd ./usr/main.o
+ .debug_macro   0x00020189       0x10 ./usr/main.o
+ .debug_macro   0x00020199       0x58 ./usr/main.o
+ .debug_macro   0x000201f1       0x1f ./usr/main.o
+ .debug_macro   0x00020210       0x43 ./usr/main.o
+ .debug_macro   0x00020253       0x20 ./usr/main.o
+ .debug_macro   0x00020273      0x187 ./usr/main.o
+ .debug_macro   0x000203fa       0x10 ./usr/main.o
+ .debug_macro   0x0002040a       0x1c ./usr/main.o
+ .debug_macro   0x00020426       0x52 ./usr/main.o
+ .debug_macro   0x00020478       0x40 ./usr/main.o
+ .debug_macro   0x000204b8       0x10 ./usr/main.o
+ .debug_macro   0x000204c8       0x40 ./usr/main.o
+ .debug_macro   0x00020508       0xd7 ./usr/main.o
+ .debug_macro   0x000205df       0x16 ./usr/main.o
+ .debug_macro   0x000205f5      0x18b ./usr/main.o
+ .debug_macro   0x00020780       0x57 ./usr/main.o
+ .debug_macro   0x000207d7     0x1add ./usr/main.o
+ .debug_macro   0x000222b4      0x6a2 ./usr/main.o
+ .debug_macro   0x00022956      0x11e ./usr/main.o
+ .debug_macro   0x00022a74      0x277 ./usr/main.o
+ .debug_macro   0x00022ceb       0x27 ./usr/main.o
+ .debug_macro   0x00022d12      0x24f ./usr/main.o
+ .debug_macro   0x00022f61       0x71 ./usr/main.o
+ .debug_macro   0x00022fd2       0x58 ./usr/main.o
+ .debug_macro   0x0002302a      0x23a ./usr/main.o
+ .debug_macro   0x00023264      0x408 ./usr/main.o
+ .debug_macro   0x0002366c      0x161 ./usr/main.o
+ .debug_macro   0x000237cd      0x100 ./usr/main.o
+ .debug_macro   0x000238cd      0x36e ./usr/main.o
+ .debug_macro   0x00023c3b      0x2e2 ./usr/main.o
+ .debug_macro   0x00023f1d       0xab ./usr/main.o
+ .debug_macro   0x00023fc8       0x4c ./usr/main.o
+ .debug_macro   0x00024014       0x2e ./usr/main.o
+ .debug_macro   0x00024042      0x22b ./usr/main.o
+ .debug_macro   0x0002426d       0xe6 ./usr/main.o
+ .debug_macro   0x00024353       0xa1 ./usr/main.o
+ .debug_macro   0x000243f4       0x3c ./usr/main.o
+ .debug_macro   0x00024430      0x22c ./usr/main.o
+ .debug_macro   0x0002465c      0xcd6 ./usr/main.o
+ .debug_macro   0x00025332      0x156 ./usr/main.o
+ .debug_macro   0x00025488      0x3de ./usr/main.o
+ .debug_macro   0x00025866       0x12 ./usr/main.o
+ .debug_macro   0x00025878      0x516 ./usr/main.o
+ .debug_macro   0x00025d8e       0x88 ./usr/main.o
+ .debug_macro   0x00025e16       0xe3 ./usr/main.o
+ .debug_macro   0x00025ef9       0x10 ./usr/main.o
+ .debug_macro   0x00025f09      0x202 ./usr/main.o
+ .debug_macro   0x0002610b       0x61 ./usr/main.o
+ .debug_macro   0x0002616c       0x90 ./usr/main.o
+ .debug_macro   0x000261fc      0x1b5 ./usr/main.o
+ .debug_macro   0x000263b1       0x87 ./usr/main.o
+ .debug_macro   0x00026438      0x28d ./usr/main.o
+ .debug_macro   0x000266c5      0x255 ./usr/main.o
+ .debug_macro   0x0002691a      0x133 ./usr/main.o
+ .debug_macro   0x00026a4d      0x10c ./usr/main.o
+ .debug_macro   0x00026b59       0x35 ./usr/main.o
+ .debug_macro   0x00026b8e      0x2e2 ./usr/main.o
+ .debug_macro   0x00026e70       0x7b ./usr/main.o
+ .debug_macro   0x00026eeb      0x313 ./usr/main.o
+ .debug_macro   0x000271fe      0x4dc ./usr/main.o
+ .debug_macro   0x000276da       0xd6 ./usr/main.o
+ .debug_macro   0x000277b0      0x447 ./usr/main.o
+ .debug_macro   0x00027bf7      0x757 ./usr/main.o
+ .debug_macro   0x0002834e      0x198 ./usr/main.o
+ .debug_macro   0x000284e6      0x1ed ./usr/main.o
+ .debug_macro   0x000286d3      0x2e2 ./usr/main.o
+ .debug_macro   0x000289b5      0x685 ./usr/main.o
+ .debug_macro   0x0002903a      0x295 ./usr/main.o
+ .debug_macro   0x000292cf      0x13f ./usr/main.o
+ .debug_macro   0x0002940e      0x4e8 ./usr/main.o
+ .debug_macro   0x000298f6       0x47 ./usr/main.o
+ .debug_macro   0x0002993d      0x1df ./usr/main.o
+ .debug_macro   0x00029b1c       0x29 ./usr/main.o
+ .debug_macro   0x00029b45       0x58 ./usr/main.o
+ .debug_macro   0x00029b9d      0x1f4 ./usr/main.o
+ .debug_macro   0x00029d91       0x30 ./usr/main.o
+ .debug_macro   0x00029dc1       0x58 ./usr/main.o
+ .debug_macro   0x00029e19      0x2f7 ./usr/main.o
+ .debug_macro   0x0002a110       0x5e ./usr/main.o
+ .debug_macro   0x0002a16e       0xa5 ./usr/main.o
+ .debug_macro   0x0002a213       0x89 ./usr/main.o
+ .debug_macro   0x0002a29c      0x1f4 ./usr/main.o
+ .debug_macro   0x0002a490      0x120 ./usr/main.o
+ .debug_macro   0x0002a5b0       0x75 ./usr/main.o
+ .debug_macro   0x0002a625      0x2a3 ./usr/main.o
+ .debug_macro   0x0002a8c8      0x137 ./usr/main.o
+ .debug_macro   0x0002a9ff      0x2c5 ./usr/main.o
+ .debug_macro   0x0002acc4      0x158 ./usr/main.o
+ .debug_macro   0x0002ae1c      0x531 ./hallib/stm32f7xx_hal.o
+ .debug_macro   0x0002b34d      0x50d ./hallib/stm32f7xx_hal_cortex.o
+ .debug_macro   0x0002b85a      0x545 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_macro   0x0002bd9f      0x504 ./cmsis/system_stm32f7xx.o
+
+.debug_line     0x00000000     0x3add
+ .debug_line    0x00000000      0xa5f ./usr/main.o
+ .debug_line    0x00000a5f      0xc08 ./hallib/stm32f7xx_hal.o
+ .debug_line    0x00001667      0xd50 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_line    0x000023b7      0xc41 ./hallib/stm32f7xx_hal_gpio.o
+ .debug_line    0x00002ff8       0x7d ./cmsis/startup_stm32f767xx.o
+ .debug_line    0x00003075      0xa68 ./cmsis/system_stm32f7xx.o
+
+.debug_str      0x00000000   0x129ceb
+ .debug_str     0x00000000   0x128bcd ./usr/main.o
+                             0x128ee4 (size before relaxing)
+ .debug_str     0x00128bcd      0x9cf ./hallib/stm32f7xx_hal.o
+                             0x1298d6 (size before relaxing)
+ .debug_str     0x0012959c      0x4b3 ./hallib/stm32f7xx_hal_cortex.o
+                             0x129978 (size before relaxing)
+ .debug_str     0x00129a4f      0x22f ./hallib/stm32f7xx_hal_gpio.o
+                             0x129169 (size before relaxing)
+ .debug_str     0x00129c7e       0x6d ./cmsis/system_stm32f7xx.o
+                             0x127e05 (size before relaxing)
+
+.comment        0x00000000       0x7f
+ .comment       0x00000000       0x7f ./usr/main.o
+                                 0x80 (size before relaxing)
+ .comment       0x0000007f       0x80 ./hallib/stm32f7xx_hal.o
+ .comment       0x0000007f       0x80 ./hallib/stm32f7xx_hal_cortex.o
+ .comment       0x0000007f       0x80 ./hallib/stm32f7xx_hal_gpio.o
+ .comment       0x0000007f       0x80 ./cmsis/system_stm32f7xx.o
+
+.debug_frame    0x00000000      0xb98
+ .debug_frame   0x00000000       0x6c ./usr/main.o
+ .debug_frame   0x0000006c      0x330 ./hallib/stm32f7xx_hal.o
+ .debug_frame   0x0000039c      0x498 ./hallib/stm32f7xx_hal_cortex.o
+ .debug_frame   0x00000834      0x14c ./hallib/stm32f7xx_hal_gpio.o
+ .debug_frame   0x00000980       0x58 ./cmsis/system_stm32f7xx.o
+ .debug_frame   0x000009d8       0x2c d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-init.o)
+ .debug_frame   0x00000a04       0x5c d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000a60       0x20 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-atexit.o)
+ .debug_frame   0x00000a80       0x34 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-fini.o)
+ .debug_frame   0x00000ab4       0xb0 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-lock.o)
+ .debug_frame   0x00000b64       0x34 d:/program files/gnu tools arm embedded/6 2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg.a(lib_a-__atexit.o)
