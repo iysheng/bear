@@ -18,11 +18,23 @@ void LED_on(void)
   HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1,GPIO_PIN_RESET);	//PB1÷√0,µ„¡¡
 }
 
+void LED_off(void)
+{
+  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_0,GPIO_PIN_SET);	//PB0÷√1,œ®√
+  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1,GPIO_PIN_SET);	//PB1÷√0,µ„¡¡
+}
+
 int main(void)
 {
 	HAL_Init();
 	LED_init();
-	LED_on();
-    while(1);
+
+    while(1)
+    {
+    	LED_on();
+    	HAL_Delay(1000);
+    	LED_off();
+    	HAL_Delay(1000);
+    };
     return 0;
 }
