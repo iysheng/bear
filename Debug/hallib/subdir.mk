@@ -6,17 +6,23 @@
 C_SRCS += \
 ../hallib/stm32f7xx_hal.c \
 ../hallib/stm32f7xx_hal_cortex.c \
-../hallib/stm32f7xx_hal_gpio.c 
+../hallib/stm32f7xx_hal_gpio.c \
+../hallib/stm32f7xx_hal_pwr_ex.c \
+../hallib/stm32f7xx_hal_rcc.c 
 
 OBJS += \
 ./hallib/stm32f7xx_hal.o \
 ./hallib/stm32f7xx_hal_cortex.o \
-./hallib/stm32f7xx_hal_gpio.o 
+./hallib/stm32f7xx_hal_gpio.o \
+./hallib/stm32f7xx_hal_pwr_ex.o \
+./hallib/stm32f7xx_hal_rcc.o 
 
 C_DEPS += \
 ./hallib/stm32f7xx_hal.d \
 ./hallib/stm32f7xx_hal_cortex.d \
-./hallib/stm32f7xx_hal_gpio.d 
+./hallib/stm32f7xx_hal_gpio.d \
+./hallib/stm32f7xx_hal_pwr_ex.d \
+./hallib/stm32f7xx_hal_rcc.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

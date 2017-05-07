@@ -7,16 +7,19 @@ S_SRCS += \
 ../cmsis/startup_stm32f767xx.s 
 
 C_SRCS += \
+../cmsis/stm32f7xx_it.c \
 ../cmsis/system_stm32f7xx.c 
 
 OBJS += \
 ./cmsis/startup_stm32f767xx.o \
+./cmsis/stm32f7xx_it.o \
 ./cmsis/system_stm32f7xx.o 
 
 S_DEPS += \
 ./cmsis/startup_stm32f767xx.d 
 
 C_DEPS += \
+./cmsis/stm32f7xx_it.d \
 ./cmsis/system_stm32f7xx.d 
 
 

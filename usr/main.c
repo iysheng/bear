@@ -14,19 +14,47 @@ void LED_init(void)
 
 void LED_on(void)
 {
-  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_0,GPIO_PIN_RESET);	//PB0÷√1,œ®√
+  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_0,GPIO_PIN_RESET);	//PB0÷√1,µ„¡¡
   HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1,GPIO_PIN_RESET);	//PB1÷√0,µ„¡¡
 }
 
 void LED_off(void)
 {
   HAL_GPIO_WritePin(GPIOB,GPIO_PIN_0,GPIO_PIN_SET);	//PB0÷√1,œ®√
-  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1,GPIO_PIN_SET);	//PB1÷√0,µ„¡¡
+  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1,GPIO_PIN_SET);	//PB1÷√0,œ®√
 }
 
+static void sys_clock_config(void)
+{
+	RCC_OscInitTypeDef Osc;
+	RCC_ClkInitTypeDef Clk;
+    Osc.HSEState=RCC_HSE_ON;
+    Osc.HSICalibrationValue=RCC_HSICALIBRATION_DEFAULT;
+    Osc.HSIState=RCC_HSI_OFF;
+    Osc.OscillatorType=RCC_OSCILLATORTYPE_HSE;
+    Osc.PLL.PLLSource=RCC_PLLSOURCE_HSE;
+    Osc.PLL.PLLState=RCC_PLL_ON;
+    Osc.PLL.PLLM=25;
+    Osc.PLL.PLLN=432;
+	Osc.PLL.PLLP=RCC_PLLP_DIV2;
+	Osc.PLL.PLLQ=9;
+	if(HAL_OK!=HAL_RCC_OscConfig(&Osc))
+		while(1);
+    if(HAL_OK!=HAL_PWREx_EnableOverDrive())
+    	while(1);
+	Clk.SYSCLKSource=RCC_SYSCLKSOURCE_PLLCLK;
+	Clk.AHBCLKDivider=RCC_SYSCLK_DIV1;
+	Clk.APB1CLKDivider=RCC_HCLK_DIV4;
+	Clk.APB2CLKDivider=RCC_HCLK_DIV2;
+	Clk.ClockType=(RCC_CLOCKTYPE_SYSCLK | RCC_CLOCKTYPE_HCLK | RCC_CLOCKTYPE_PCLK1 | RCC_CLOCKTYPE_PCLK2);
+	if(HAL_OK!=HAL_RCC_ClockConfig(&Clk,FLASH_ACR_LATENCY_7WS))
+		while(1);
+
+}
 int main(void)
 {
 	HAL_Init();
+	sys_clock_config();
 	LED_init();
 
     while(1)
