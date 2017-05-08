@@ -2,13 +2,21 @@
 #include "rgb.h"
 #include "touch.h"
 
+  #ifdef __GNUC__
   /* With GCC, small printf (option LD Linker->Libraries->Small printf
      set to 'Yes') calls __io_putchar() */
   #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
+#else
+  #define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
+#endif /* __GNUC__ */
 
+#ifdef __GNUC__
   /* With GCC, small printf (option LD Linker->Libraries->Small printf
      set to 'Yes') calls __io_putchar() */
   #define GETCHAR_PROTOTYPE int __io_getchar(int ch)
+#else
+  #define GETCHAR_PROTOTYPE int fgetc(FILE *f)
+#endif /* __GNUC__ */
 
 
 UART_HandleTypeDef IUART;
@@ -88,48 +96,6 @@ void CPU_CACHE_Enable(void)
   SCB_EnableDCache();
   //SCB->CACR|=1<<2;   //强制D-Cache透写,如不开启,实际使用中可能遇到各种问题
 }
-
-#if 0
-void SystemClock_Config(void)
-{
-  RCC_ClkInitTypeDef RCC_ClkInitStruct;
-  RCC_OscInitTypeDef RCC_OscInitStruct;
-
-  /* Enable HSE Oscillator and activate PLL with HSE as source */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
-  RCC_OscInitStruct.HSEState = RCC_HSE_ON;
-  RCC_OscInitStruct.HSIState = RCC_HSI_OFF;
-  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
-  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
-  RCC_OscInitStruct.PLL.PLLM = 25;
-  RCC_OscInitStruct.PLL.PLLN = 432;
-  RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
-  RCC_OscInitStruct.PLL.PLLQ = 9;
-  RCC_OscInitStruct.PLL.PLLR = 7;
-  if(HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
-  {
-    while(1) {};
-  }
-
-  /* Activate the OverDrive to reach the 216 Mhz Frequency */
-  if(HAL_PWREx_EnableOverDrive() != HAL_OK)
-  {
-    while(1) {};
-  }
-
-  /* Select PLL as system clock source and configure the HCLK, PCLK1 and PCLK2
-     clocks dividers */
-  RCC_ClkInitStruct.ClockType = (RCC_CLOCKTYPE_SYSCLK | RCC_CLOCKTYPE_HCLK | RCC_CLOCKTYPE_PCLK1 | RCC_CLOCKTYPE_PCLK2);
-  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
-  RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
-  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV4;
-  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV2;
-  if(HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_7) != HAL_OK)
-  {
-    while(1) {};
-  }
-}
-#endif
 void SystemClock_Config(void)
 {
     HAL_StatusTypeDef ret = HAL_OK;
@@ -165,6 +131,30 @@ void SystemClock_Config(void)
     if(ret!=HAL_OK) while(1);
 }
 
+//#define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
+#if 1
+#pragma import(__use_no_semihosting)
+//标准库需要的支持函数
+struct __FILE
+{
+	int handle;
+};
+
+FILE __stdout;
+//定义_sys_exit()以避免使用半主机模式
+void _sys_exit(int x)
+{
+	x = x;
+}
+//重定义fputc函数
+int fputc(int ch, FILE *f)
+{
+	while((USART1->ISR&0X40)==0);//循环发送,直到发送完毕
+	USART1->TDR=(u8)ch;
+	return ch;
+}
+#endif
+#if 0
 
 PUTCHAR_PROTOTYPE
 {
@@ -179,6 +169,8 @@ GETCHAR_PROTOTYPE
   HAL_UART_Receive(&IUART,(uint8_t *)&scanf_ch, 1, 0xFFFF);
   return  scanf_ch;
 }
+
+#endif
 
 void MPU_set_protection(uint32_t addr,uint8_t size,uint8_t num,uint8_t ap)
 {
@@ -319,17 +311,6 @@ void HAL_UART_MspInit(UART_HandleTypeDef *huart)
   }
 }
 
-/*
-void TIM_init(TIM_HandleTypeDef *ITIMX)
-{
-  ITIMX->Instance=TIM3;
-  ITIMX->Init.Period=999;//周期为1000ms
-  ITIMX->Init.Prescaler=53999;//采样时钟频率为1ms
-  ITIMX->Init.CounterMode=TIM_COUNTERMODE_UP;
-  HAL_TIM_Base_Init(ITIMX); 
-  HAL_TIM_Base_Start_IT(ITIMX);
-}*/
-
 void TIM2_init(void)
 {
   TIM_MasterConfigTypeDef iMasterConfig;
@@ -352,12 +333,12 @@ void TIM3_init(void)
   memset(&iConfig,0,sizeof(iConfig));
   __HAL_RCC_TIM3_CLK_ENABLE();
   ITIM3.Instance=TIM3;
-  ITIM3.Init.Period=999;//周期为9999--5000ms，频率为0.2hz
+  ITIM3.Init.Period=1999;//周期为1999--1000ms，频率为1hz
   ITIM3.Init.Prescaler=53999;//采样时钟间隔为500us，频率为2khz
   ITIM3.Init.CounterMode=TIM_COUNTERMODE_UP;
   HAL_TIM_PWM_Init(&ITIM3);
   iConfig.OCMode=TIM_OCMODE_PWM1;
-  iConfig.Pulse=499;
+  iConfig.Pulse=999;
   iConfig.OCPolarity=TIM_OCPOLARITY_HIGH;
   HAL_TIM_PWM_ConfigChannel(&ITIM3,&iConfig,TIM_CHANNEL_4);
   HAL_TIM_PWM_Start(&ITIM3,TIM_CHANNEL_4);
@@ -418,7 +399,6 @@ void HAL_TIM_IC_MspInit(TIM_HandleTypeDef *htim)
 
 void HAL_TIM_Base_MspInit(TIM_HandleTypeDef *htim)
 {
-  LED_init();
   if(htim->Instance==TIM2){
     __HAL_RCC_TIM2_CLK_ENABLE();
     HAL_NVIC_EnableIRQ(TIM2_IRQn);
@@ -632,6 +612,6 @@ void USART2_IRQHandler(void) {
 
 void MemManage_Handler(void)
 {
-  printf("MPU opened!\r\n");
+  //printf("MPU opened!\r\n");
   NVIC_SystemReset();
 }

@@ -123,10 +123,10 @@ void  BSP_Init (void)
     UART_init(&IUART);
     SDRAM_init();
     LCD_Init();
-    TIM5_init();
+    TIM5_init();//输入捕获
     CEKONG_init();
-    TIM2_init();
-    TIM3_init();
+    TIM2_init();//定时器驱动AD转换
+    TIM3_init();//定时器产生PWM测试
     tp_dev.init();
     HAL_NVIC_EnableIRQ(EXTI9_5_IRQn);//初始化触摸屏按键中断
     HAL_NVIC_SetPriority(EXTI9_5_IRQn, 0x0, 1);

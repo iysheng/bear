@@ -220,6 +220,7 @@ int main(void)
 static  void  AppTaskStart (void *p_arg)
 {
     OS_ERR  err;
+    uint8_t test='y';
 
 
    (void)p_arg;
@@ -238,6 +239,7 @@ static  void  AppTaskStart (void *p_arg)
    //AppObjCreate();                                             /* Create Applicaiton kernel objects                    */
 
    APP_TRACE_DBG(("Creating Application Tasks\n\r"));
+   HAL_UART_Transmit(&IUART, &test, 1, 0xffff);
    AppTaskCreate();                                            /* Create Application tasks                             */
    OSTaskDel((OS_TCB *)0, &err);//É¾³ý×Ô¼º
 }
@@ -325,10 +327,12 @@ static  void  AppTaskCreate (void)
 static  void  AppTaskObj0(void  *p_arg)
 {
   OS_ERR  os_err;
+  uint8_t test='a';
   (void)p_arg;
   while (DEF_TRUE) {
            BSP_LED_Off(0u);
-           APP_TRACE_DBG(("%s\r\n",AppTaskObj0TCB.NamePtr));
+           HAL_UART_Transmit(&IUART, &test, 1, 0xffff);
+           //APP_TRACE_DBG(("%s\r\n",AppTaskObj0TCB.NamePtr));
         OSTimeDlyHMSM(0u, 0u, 1u, 0u,
                       OS_OPT_TIME_HMSM_STRICT,
                       &os_err);
@@ -338,10 +342,12 @@ static  void  AppTaskObj0(void  *p_arg)
 static  void  AppTaskObj1(void  *p_arg)
 {
   OS_ERR  os_err;
+  uint8_t test='b';
   (void)p_arg;
   while (DEF_TRUE) {
            BSP_LED_On(0u);
-          APP_TRACE_DBG(("%s\r\n",AppTaskObj1TCB.NamePtr));
+           HAL_UART_Transmit(&IUART, &test, 1, 0xffff);
+          //APP_TRACE_DBG(("%s\r\n",AppTaskObj1TCB.NamePtr));
                OSTimeDlyHMSM(0u, 0u, 2u, 0u,
                       OS_OPT_TIME_HMSM_STRICT,
                       &os_err);
@@ -403,7 +409,7 @@ static  void  AppTaskDisplay(void  *p_arg)
       sprintf((char *)rstr,"%dtouchpoint,x=%3d,y=%3d",tp_dev.sta,(uint16_t)tp_dev.x[tp_dev.sta],(uint16_t)tp_dev.y[tp_dev.sta]);
       if((tp_dev.x[tp_dev.sta]<800)&&(tp_dev.y[tp_dev.sta]<480))
       {
-       // printf("%s\r\n",rstr);
+       //printf("%s\r\n",rstr);
         LCD_ShowString(300,50+3*80,32*16,32,32,(uint8_t *)rstr);
       }
       }
