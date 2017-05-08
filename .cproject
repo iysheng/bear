@@ -39,15 +39,28 @@
 							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.1458303012" name="Remove command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm" value="rm" valueType="string"/>
 							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1939402426" name="Create flash image" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash" value="true" valueType="boolean"/>
 							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.1454244001" name="Print size" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize" value="true" valueType="boolean"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.1192566279" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi" value="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.soft" valueType="enumerated"/>
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform.1654125760" isAbstract="false" osList="all" superClass="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform"/>
 							<builder buildPath="${workspace_loc:/bear}/Debug" id="ilg.gnuarmeclipse.managedbuild.cross.builder.1072808489" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="ilg.gnuarmeclipse.managedbuild.cross.builder"/>
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.491931789" name="Cross ARM GNU Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor.1548356290" name="Use preprocessor" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor" value="true" valueType="boolean"/>
-								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths.1394798222" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths" valueType="includePath">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths.1394798222" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths" useByScannerDiscovery="true" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/cmsis}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/hallib/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/hallib/inc/Legacy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/uC-CPU}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/uC-LIB/Ports}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/uC-LIB}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/UCOS-BSP}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/UCOS-CONFIG}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/uCOS-III/Ports/ARM-Cortex-M/ARMv7-M/GNU}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/uC-CPU/ARM-Cortex-M4/GNU}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/uCOS-III/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/usr}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/FatFs/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/FatFs/src/drivers}&quot;"/>
 								</option>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs.417942694" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs"/>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.373154237" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
 							</tool>
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.2033582580" name="Cross ARM GNU C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler">
@@ -55,6 +68,17 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/cmsis}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/hallib/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/hallib/inc/Legacy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/uC-CPU}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/uC-LIB/Ports}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/uC-LIB}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/UCOS-BSP}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/UCOS-CONFIG}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/uCOS-III/Ports/ARM-Cortex-M/ARMv7-M/GNU}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/uC-CPU/ARM-Cortex-M4/GNU}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/uCOS-III/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/usr}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/FatFs/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/bear/FatFs/src/drivers}&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.677058928" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="STM32F767xx"/>
@@ -68,6 +92,8 @@
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile.1034639075" name="Script files (-T)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.scriptfile" useByScannerDiscovery="false" valueType="stringList">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/cmsis/STM32F767ZITx_ITCM_FLASH.ld}&quot;"/>
 								</option>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.paths.1911278425" name="Library search path (-L)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.paths" useByScannerDiscovery="false"/>
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.libs.1372224184" name="Libraries (-l)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.linker.libs" useByScannerDiscovery="false"/>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input.924725376" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>

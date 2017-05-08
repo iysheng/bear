@@ -8,9 +8,19 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include usr/newlib/subdir.mk
 -include usr/subdir.mk
+-include uCOS-III/Source/subdir.mk
+-include uCOS-III/Ports/ARM-Cortex-M/ARMv7-M/GNU/subdir.mk
+-include uC-LIB/Ports/ARM-Cortex-M4/GNU/subdir.mk
+-include uC-LIB/subdir.mk
+-include uC-CPU/Cache/ARM/armv7m_generic_l1/subdir.mk
+-include uC-CPU/ARM-Cortex-M4/GNU/subdir.mk
+-include uC-CPU/subdir.mk
 -include hallib/subdir.mk
 -include cmsis/subdir.mk
+-include UCOS-CONFIG/subdir.mk
+-include UCOS-BSP/subdir.mk
 -include subdir.mk
 -include objects.mk
 
@@ -46,7 +56,7 @@ all: bear.elf secondary-outputs
 bear.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross ARM GNU C Linker'
-	arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "D:\Apollo\neon\bear\cmsis\STM32F767ZITx_ITCM_FLASH.ld" -Xlinker --gc-sections -Wl,-Map,"bear.map" -o "bear.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=soft -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "D:\Apollo\neon\bear\cmsis\STM32F767ZITx_ITCM_FLASH.ld" -Xlinker --gc-sections -Wl,-Map,"bear.map" -o "bear.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

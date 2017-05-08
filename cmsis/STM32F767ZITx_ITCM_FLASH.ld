@@ -5,7 +5,7 @@
 **  File        : LinkerScript.ld
 **
 **  Abstract    : Linker script for STM32F767ZITx Device with
-**                2048KByte FLASH, 320KByte RAM
+**                2048KByte FLASH, 512KByte RAM
 **
 **                Set heap size, stack size and stack location according
 **                to application requirements.
@@ -29,20 +29,24 @@
 *****************************************************************************
 */
 
+PROVIDE ( _Heap_Begin = _end_noinit ) ;
+PROVIDE ( _Heap_Limit = _Min_Heap_Size ) ;
+
 /* Entry Point */
 ENTRY(Reset_Handler)
 
 /* Highest address of the user mode stack */
-_estack = 0x20050000;    /* end of RAM */
+_estack = 0x20080000;    /* end of RAM */
 /* Generate a link error if heap and stack don't fit into RAM */
-_Min_Heap_Size = 0x200;      /* required amount of heap  */
-_Min_Stack_Size = 0x400; /* required amount of stack */
+_Min_Heap_Size = 0x400;      /* required amount of heap  */
+_Min_Stack_Size = 0x900; /* required amount of stack */
 
-/* Specify the memory areas */
+/* Specify the memory areas  */
 MEMORY
 {
-FLASH (rx)      : ORIGIN = 0x08000000, LENGTH = 2048K
-RAM (xrw)      : ORIGIN = 0x20000000, LENGTH = 320K
+FLASH (rx)      : ORIGIN = 0x00200000, LENGTH = 2048K
+RAM (xrw)      : ORIGIN = 0x20000000, LENGTH = 512K
+SDRAM (xrw)      : ORIGIN = 0xC0000000, LENGTH = 32M
 }
 
 /* Define output sections */
@@ -146,14 +150,19 @@ SECTIONS
   ._user_heap_stack :
   {
     . = ALIGN(8);
+    _end_noinit = .;
     PROVIDE ( end = . );
     PROVIDE ( _end = . );
     . = . + _Min_Heap_Size;
+    
     . = . + _Min_Stack_Size;
     . = ALIGN(8);
   } >RAM
 
-  
+  .sdram_block 0xC0000000 :
+  {
+  *(.sdram_section);
+  } > SDRAM
 
   /* Remove information from the standard libraries */
   /DISCARD/ :

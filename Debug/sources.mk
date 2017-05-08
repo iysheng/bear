@@ -19,7 +19,17 @@ C_DEPS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
+UCOS-BSP \
+UCOS-CONFIG \
 cmsis \
 hallib \
+uC-CPU/ARM-Cortex-M4/GNU \
+uC-CPU/Cache/ARM/armv7m_generic_l1 \
+uC-CPU \
+uC-LIB/Ports/ARM-Cortex-M4/GNU \
+uC-LIB \
+uCOS-III/Ports/ARM-Cortex-M/ARMv7-M/GNU \
+uCOS-III/Source \
 usr \
+usr/newlib \
 
